@@ -28,7 +28,7 @@ const goBack = () => {
 .discs-detail-page {
   height: 100vh;
   width: 100vw;
-  background: linear-gradient(to bottom , #74759b, #abaedc);
+  // background: linear-gradient(to bottom , #74759b, #abaedc);
   display: flex;
   .page-header {
     width: 100%;
