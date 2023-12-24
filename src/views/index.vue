@@ -1,9 +1,11 @@
 <template>
   <div class="index-page">
     <home-header></home-header>
-    <div class="index-page-discs-box">
-      <div class="discs-box-min-box" v-for="(item, index) in Discs" :key="index">
-        <home-discs :discsData="item" :index="index"></home-discs>
+    <div class="discs-box">
+      <div class="index-page-discs-box">
+        <div class="discs-box-min-box" v-for="(item, index) in Discs" :key="index">
+          <home-discs :discsData="item" :index="index"></home-discs>
+        </div>
       </div>
     </div>
   </div>
@@ -18,13 +20,17 @@ import { Discs } from "../js"
 <style scoped lang='scss'>
 .index-page {
   width: 100vw;
-  background: linear-gradient(to bottom , #74759b, #abaedc);
+  .discs-box {
+    margin: auto;
+    height: 100vh;
+    width: 1308px;
   .index-page-discs-box {
+    padding: 0 30px;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
-    // background: red;
     float: left;
+  }
+
   }
 }
 </style>

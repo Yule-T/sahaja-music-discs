@@ -46,21 +46,20 @@ function imgClick(index) {
 
 <style scoped lang='scss'>
 .home-discs-page {
-    // background: rgb(152, 184, 143);
     .discs-box {
       margin: 5px 20px;
-      width: 250px;
-      height: 330px;
+      width: 168px;
+      height: 250px;
       background: white;
       padding: 0 5px;
       .discs-pic {
         width: 100%;
-        height: 250px;
+        height: 168px;
         overflow: hidden;
         img {
           width: 100%;
           height: 100%;
-          object-fit: cover;
+          object-fit: contain;
           transition: all 0.5s;
         }
         img:hover {
@@ -70,6 +69,8 @@ function imgClick(index) {
       }
       .discs-name {
         margin-top: 10px;
+        line-height: 22px;
+        font-size: 14px;
         span:hover {
           cursor: pointer;
         }
@@ -77,6 +78,7 @@ function imgClick(index) {
       .discs-author {
         margin-top: 5px;
         font-size: 14px;
+        line-height: 22px;
         color: grey;
       }
     }

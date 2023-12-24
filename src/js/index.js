@@ -5,7 +5,8 @@ export const Discs = [
         discsPic: 'src/assets/img/thousand-petals.jpeg',
         discsAuthor: '德国Kundala',
         discsContent: [
-            {label: '24首歌曲；儿童拜赞，以每个轮穴的神祗为主；'},
+            {label: '24首歌曲；'},
+            {label: '儿童拜赞，以每个轮穴的神祗为主；'},
             {label: '歌曲包含：sa sa sa,here we are,Shri Hanumana 等等'},
         ],
         discsTypeAndLug: 'CD英语',
@@ -16,7 +17,7 @@ export const Discs = [
         ],
         burntVersionDetail: [
             {
-                'burnInclud': '碟片 + 歌词本 + 光盘盒',
+                'burnInclud': '碟片+歌词本+光盘盒',
                 'burnPic': 'src/assets/img/thousand-petals.jpeg',
             }
         ]
@@ -27,8 +28,8 @@ export const Discs = [
         discsPic: 'src/assets/img/together-we-are-strong.png',
         discsAuthor: '德国Kundala',
         discsContent: [
-            {label: '16首歌曲+16首都应歌曲的纯音乐'},
-            {label: '以儿童生活为主题'},
+            {label: '16首歌曲 + 16首都应歌曲的纯音乐；'},
+            {label: '以儿童生活为主题；'},
         ],
         discsTypeAndLug: 'CD英语',
         highlyRecommended: [
@@ -36,7 +37,7 @@ export const Discs = [
         ],
         burntVersionDetail: [
             {
-                'burnInclud': '碟片 + 歌词本 + 光盘盒',
+                'burnInclud': '碟片+歌词本+光盘盒',
                 'burnPic': 'src/assets/img/together-we-are-strong.png',
             }
         ]
@@ -47,7 +48,7 @@ export const Discs = [
         discsPic: 'src/assets/img/little-ganesha.jpeg',
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
-            {label: '32首儿童拜赞'},
+            {label: '32首儿童拜赞；'},
         ],
         discsTypeAndLug: 'CD英语',
         highlyRecommended: [
@@ -57,7 +58,7 @@ export const Discs = [
         ],
         burntVersionDetail: [
             {
-                'burnInclud': '碟片 + 歌词本 + 光盘盒',
+                'burnInclud': '碟片+歌词本+光盘盒',
                 'burnPic': 'src/assets/img/little-ganesha.jpeg',
             }
         ]
@@ -68,7 +69,7 @@ export const Discs = [
         discsPic: 'src/assets/img/a-day-in-borotin.png',
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
-            {label: '14首歌曲 + 7首霎哈嘉知识引导音频 + 3个儿童剧视频'},
+            {label: '14首歌曲 + 7首霎哈嘉知识引导音频 + 3个儿童剧视频；'},
             {label: '孩子们参与的儿童剧表演：Little Krishna 、 睡美人等'},
         ],
         discsTypeAndLug: 'DVD英语',
@@ -79,7 +80,7 @@ export const Discs = [
         ],
         burntVersionDetail: [
             {
-                'burnInclud': '碟片 + 歌词本 + 光盘盒',
+                'burnInclud': '碟片+歌词本+光盘盒',
                 'burnPic': 'src/assets/img/a-day-in-borotin.png',
             }
         ]
@@ -91,11 +92,11 @@ export const Discs = [
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
             {label: 'Introduction to Meditation and Sahaj Techniques 冥想与Sahaj 技巧'},
-            {label: '1. Morning meditation 清晨冥想'},
-            {label: '2. Shoe beat 鞋打'},
-            {label: '3. Foot soak 泡脚'},
-            {label: '4. Raksha Bandhan 兄妹结'},
-            {label: '5. Puja'},
+            {label: '1. Morning meditation 清晨冥想；'},
+            {label: '2. Shoe beat 鞋打；'},
+            {label: '3. Foot soak 泡脚；'},
+            {label: '4. Raksha Bandhan 兄妹结；'},
+            {label: '5. Puja；'},
         ],
         discsTypeAndLug: 'DVD',
         highlyRecommended: [
@@ -105,7 +106,7 @@ export const Discs = [
         ],
         burntVersionDetail: [
             {
-                'burnInclud': '碟片 + 光盘盒',
+                'burnInclud': '碟片+光盘盒',
                 'burnPic': 'src/assets/img/borotin1.jpeg',
             }
         ]
@@ -117,13 +118,13 @@ export const Discs = [
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
             {label: 'Mooladhara Chakra：the child within 根轮:儿童的内在'},
-            {label: '1. Meditation on Mooladhara chakra对根轮冥想'},
-            {label: '2. Drawing Shri Ganesha  画Ganesha'},
-            {label: '3. Shri Ganesha’s Creation-dance  舞蹈—Ganesha创生记'},
-            {label: '4. Wisdom 智慧'},
-            {label: '5. Shiny eyes 闪亮的眼睛'},
-            {label: '6. Worship'},
-            {label: '7.  Little Hands'},
+            {label: '1. Meditation on Mooladhara chakra对根轮冥想；'},
+            {label: '2. Drawing Shri Ganesha  画Ganesha；'},
+            {label: '3. Shri Ganesha’s Creation-dance  舞蹈—Ganesha创生记；'},
+            {label: '4. Wisdom 智慧；'},
+            {label: '5. Shiny eyes 闪亮的眼睛；'},
+            {label: '6. Worship；'},
+            {label: '7. Little Hands；'},
         ],
         discsTypeAndLug: 'DVD英语',
         highlyRecommended: [
@@ -133,7 +134,7 @@ export const Discs = [
         ],
         burntVersionDetail: [
             {
-                'burnInclud': '碟片 + 光盘盒',
+                'burnInclud': '碟片+光盘盒',
                 'burnPic': 'src/assets/img/borotin2.jpeg',
             }
         ]
@@ -146,12 +147,12 @@ export const Discs = [
         discsContent: [
             {label: 'Swadisthana chakra: The source of Creativity 腹轮：创造力的来源'},
             {label: 'Shri Brahmadeva Saraswati, 请教我们如何'},
-            {label: '1． Meditate 冥想'},
-            {label: '2． Sing  歌唱'},
-            {label: '3． Dance  跳舞'},
-            {label: '4． Act  行动'},
-            {label: '5． Paint  绘画'},
-            {label: '6． Write and Read  读写'},
+            {label: '1． Meditate 冥想；'},
+            {label: '2． Sing  歌唱；'},
+            {label: '3． Dance  跳舞；'},
+            {label: '4． Act  行动；'},
+            {label: '5． Paint  绘画；'},
+            {label: '6． Write and Read  读写；'},
         ],
         discsTypeAndLug: 'DVD英语',
         highlyRecommended: [
@@ -161,7 +162,7 @@ export const Discs = [
         ],
         burntVersionDetail: [
             {
-                'burnInclud': '碟片 + 光盘盒',
+                'burnInclud': '碟片+光盘盒',
                 'burnPic': 'src/assets/img/borotin3.jpeg',
             }
         ]
@@ -172,7 +173,7 @@ export const Discs = [
         discsPic: 'src/assets/img/borotin-universe.png',
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
-            {label: '14首小拜赞，由幼儿园小朋友演出，部分歌曲前有简短母亲讲话'},
+            {label: '14首小拜赞，由幼儿园小朋友演出，部分歌曲前有简短母亲讲话；'},
         ],
         discsTypeAndLug: 'DVD英语',
         highlyRecommended: [
@@ -182,7 +183,7 @@ export const Discs = [
         ],
         burntVersionDetail: [
             {
-                'burnInclud': '碟片 + 歌词本 + 光盘盒 7月后可以出来',
+                'burnInclud': '碟片+歌词本+光盘盒(7月后可以出来)',
                 'burnPic': 'src/assets/img/borotin-universe.png',
             }
         ]

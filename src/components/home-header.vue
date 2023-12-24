@@ -15,7 +15,7 @@
   width: 100%;
   position: sticky;
   top: 0;
-  background: rgb(229, 242, 248);
+  background: #f9f9f9;
   text-align: center;
   line-height: 40px;
 }
