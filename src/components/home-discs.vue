@@ -2,10 +2,10 @@
   <div class="home-discs-page">
     <div class="discs-box">
       <div class="discs-pic">
-        <img :src="discsData.discsPic" alt="图片加载失败..." @click="imgClick">
+        <img :src="discsData.discsPic" alt="图片加载失败..." @click="imgClick(index)">
       </div>
       <div class="discs-name">
-        <span @click="imgClick">{{ discsData.discsName }}</span>
+        <span @click="imgClick(index)">{{ discsData.discsName }}</span>
       </div>
       <div class="discs-author">
         <span>{{ discsData.discsAuthor }}</span>
@@ -21,18 +21,21 @@ import router from "../router/index.js";
 import { reactive, ref, onMounted } from 'vue';
 import { defineProps } from "vue";
 
-const { discsData } = defineProps({
+const { discsData, index } = defineProps({
   discsData: {
     type: Object,
     default: {},
+  },
+  index: {
+    type: Number,
   }
 })
 onMounted (() => {
   console.log(discsData.discsPic);
 })
 
-function imgClick() {
-  router.push({ path: '/detail-page' });
+function imgClick(index) {
+  router.push({ path: '/detail-page',query: {id: index+1} });
 }
 </script>
 

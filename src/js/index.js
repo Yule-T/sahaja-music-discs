@@ -1,18 +1,18 @@
 export const Discs = [
     {
         discsName: 'Kundala:Thousand Petals',
-        discsChinaName: '(中文简称 Kundala 1 或者 Kundala:千瓣莲花）',
+        discsChinaName: '中文简称 Kundala 1 或者 Kundala:千瓣莲花',
         discsPic: 'src/assets/img/thousand-petals.jpeg',
         discsAuthor: '德国Kundala',
         discsContent: [
-            {1: '24首歌曲；儿童拜赞，以每个轮穴的神祗为主；'},
-            {2: '歌曲包含：sa sa sa,here we are,Shri Hanumana 等等'},
+            {label: '24首歌曲；儿童拜赞，以每个轮穴的神祗为主；'},
+            {label: '歌曲包含：sa sa sa,here we are,Shri Hanumana 等等'},
         ],
         discsTypeAndLug: 'CD英语',
         highlyRecommended: [
-            {1: '1. 大人可以通过音乐了解轮穴的特质'},
-            {2: '2. 学习如何向儿童讲解轮穴的特质'},
-            {3: '3. 组织儿童活动的好素材和灵感来源'},
+            {label: '1. 大人可以通过音乐了解轮穴的特质'},
+            {label: '2. 学习如何向儿童讲解轮穴的特质'},
+            {label: '3. 组织儿童活动的好素材和灵感来源'},
         ],
         burntVersionDetail: [
             {
@@ -23,16 +23,16 @@ export const Discs = [
     },
     {
         discsName: 'Kundala:Together We are Strong',
-        discsChinaName: '(中文简称 Kundala 2',
+        discsChinaName: '中文简称 Kundala 2',
         discsPic: 'src/assets/img/together-we-are-strong.png',
         discsAuthor: '德国Kundala',
         discsContent: [
-            {1: '16首歌曲+16首都应歌曲的纯音乐'},
-            {2: '以儿童生活为主题'},
+            {label: '16首歌曲+16首都应歌曲的纯音乐'},
+            {label: '以儿童生活为主题'},
         ],
         discsTypeAndLug: 'CD英语',
         highlyRecommended: [
-            {1: '1. 生动活泼的儿童生活题材'},
+            {label: '1. 生动活泼的儿童生活题材'},
         ],
         burntVersionDetail: [
             {
@@ -47,13 +47,13 @@ export const Discs = [
         discsPic: 'src/assets/img/little-ganesha.jpeg',
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
-            {1: '32首儿童拜赞'},
+            {label: '32首儿童拜赞'},
         ],
         discsTypeAndLug: 'CD英语',
         highlyRecommended: [
-            {1: '1. 大人可以通过音乐了解轮穴的特质'},
-            {2: '2. 学习如何向儿童讲解轮穴的特质'},
-            {3: '3. 组织儿童活动的好素材和灵感来源'},
+            {label: '1. 大人可以通过音乐了解轮穴的特质'},
+            {label: '2. 学习如何向儿童讲解轮穴的特质'},
+            {label: '3. 组织儿童活动的好素材和灵感来源'},
         ],
         burntVersionDetail: [
             {
@@ -64,18 +64,18 @@ export const Discs = [
     },
     {
         discsName: 'A Day in Borotin',
-        discsChinaName: '(中文：Borotin 幼儿园的一天',
+        discsChinaName: '中文：Borotin 幼儿园的一天',
         discsPic: 'src/assets/img/a-day-in-borotin.png',
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
-            {1: '14首歌曲 + 7首霎哈嘉知识引导音频 + 3个儿童剧视频'},
-            {2: '孩子们参与的儿童剧表演：Little Krishna 、 睡美人等'},
+            {label: '14首歌曲 + 7首霎哈嘉知识引导音频 + 3个儿童剧视频'},
+            {label: '孩子们参与的儿童剧表演：Little Krishna 、 睡美人等'},
         ],
         discsTypeAndLug: 'DVD英语',
         highlyRecommended: [
-            {1: '1. 希望了解Borotin幼儿园的日常生活点滴'},
-            {2: '2. 有愿望参与霎哈嘉儿童活动，向儿童讲解霎哈嘉知识'},
-            {3: '3. 想取得儿童活动剧的灵感'},
+            {label: '1. 希望了解Borotin幼儿园的日常生活点滴'},
+            {label: '2. 有愿望参与霎哈嘉儿童活动，向儿童讲解霎哈嘉知识'},
+            {label: '3. 想取得儿童活动剧的灵感'},
         ],
         burntVersionDetail: [
             {
@@ -90,18 +90,18 @@ export const Discs = [
         discsPic: 'src/assets/img/borotin1.jpeg',
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
-            {1: 'Introduction to Meditation and Sahaj Techniques 冥想与Sahaj 技巧'},
-            {2: '1. Morning meditation 清晨冥想'},
-            {3: '2. Shoe beat 鞋打'},
-            {4: '3. Foot soak 泡脚'},
-            {5: '4. Raksha Bandhan 兄妹结'},
-            {6: '5. Puja'},
+            {label: 'Introduction to Meditation and Sahaj Techniques 冥想与Sahaj 技巧'},
+            {label: '1. Morning meditation 清晨冥想'},
+            {label: '2. Shoe beat 鞋打'},
+            {label: '3. Foot soak 泡脚'},
+            {label: '4. Raksha Bandhan 兄妹结'},
+            {label: '5. Puja'},
         ],
         discsTypeAndLug: 'DVD',
         highlyRecommended: [
-            {1: '1. 希望了解Borotin幼儿园的日常生活点滴'},
-            {2: '2. 有愿望参与霎哈嘉儿童活动，向儿童讲解霎哈嘉知识'},
-            {3: '3. 想取得儿童活动剧的灵感'},
+            {label: '1. 希望了解Borotin幼儿园的日常生活点滴'},
+            {label: '2. 有愿望参与霎哈嘉儿童活动，向儿童讲解霎哈嘉知识'},
+            {label: '3. 想取得儿童活动剧的灵感'},
         ],
         burntVersionDetail: [
             {
@@ -116,20 +116,20 @@ export const Discs = [
         discsPic: 'src/assets/img/borotin2.jpeg',
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
-            {1: 'Mooladhara Chakra：the child within 根轮:儿童的内在'},
-            {2: '1. Meditation on Mooladhara chakra对根轮冥想'},
-            {3: '2. Drawing Shri Ganesha  画Ganesha'},
-            {4: '3. Shri Ganesha’s Creation-dance  舞蹈—Ganesha创生记'},
-            {5: '4. Wisdom 智慧'},
-            {6: '5. Shiny eyes 闪亮的眼睛'},
-            {7: '6. Worship'},
-            {8: '7.  Little Hands'},
+            {label: 'Mooladhara Chakra：the child within 根轮:儿童的内在'},
+            {label: '1. Meditation on Mooladhara chakra对根轮冥想'},
+            {label: '2. Drawing Shri Ganesha  画Ganesha'},
+            {label: '3. Shri Ganesha’s Creation-dance  舞蹈—Ganesha创生记'},
+            {label: '4. Wisdom 智慧'},
+            {label: '5. Shiny eyes 闪亮的眼睛'},
+            {label: '6. Worship'},
+            {label: '7.  Little Hands'},
         ],
         discsTypeAndLug: 'DVD英语',
         highlyRecommended: [
-            {1: '1. 希望了解Borotin幼儿园的日常生活点滴'},
-            {2: '2. 有愿望参与霎哈嘉儿童活动，向儿童讲解霎哈嘉知识'},
-            {3: '3. 想取得儿童活动剧的灵感'},
+            {label: '1. 希望了解Borotin幼儿园的日常生活点滴'},
+            {label: '2. 有愿望参与霎哈嘉儿童活动，向儿童讲解霎哈嘉知识'},
+            {label: '3. 想取得儿童活动剧的灵感'},
         ],
         burntVersionDetail: [
             {
@@ -144,20 +144,20 @@ export const Discs = [
         discsPic: 'src/assets/img/borotin3.jpeg',
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
-            {1: 'Swadisthana chakra: The source of Creativity 腹轮：创造力的来源'},
-            {2: 'Shri Brahmadeva Saraswati, 请教我们如何'},
-            {3: '1． Meditate 冥想'},
-            {4: '2． Sing  歌唱'},
-            {5: '3． Dance  跳舞'},
-            {6: '4． Act  行动'},
-            {7: '5． Paint  绘画'},
-            {8: '6． Write and Read  读写'},
+            {label: 'Swadisthana chakra: The source of Creativity 腹轮：创造力的来源'},
+            {label: 'Shri Brahmadeva Saraswati, 请教我们如何'},
+            {label: '1． Meditate 冥想'},
+            {label: '2． Sing  歌唱'},
+            {label: '3． Dance  跳舞'},
+            {label: '4． Act  行动'},
+            {label: '5． Paint  绘画'},
+            {label: '6． Write and Read  读写'},
         ],
         discsTypeAndLug: 'DVD英语',
         highlyRecommended: [
-            {1: '1. 希望了解Borotin幼儿园的日常生活点滴'},
-            {2: '2. 有愿望参与霎哈嘉儿童活动，向儿童讲解霎哈嘉知识'},
-            {3: '3. 想取得儿童活动剧的灵感'},
+            {label: '1. 希望了解Borotin幼儿园的日常生活点滴'},
+            {label: '2. 有愿望参与霎哈嘉儿童活动，向儿童讲解霎哈嘉知识'},
+            {label: '3. 想取得儿童活动剧的灵感'},
         ],
         burntVersionDetail: [
             {
@@ -172,13 +172,13 @@ export const Discs = [
         discsPic: 'src/assets/img/borotin-universe.png',
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
-            {1: '14首小拜赞，由幼儿园小朋友演出，部分歌曲前有简短母亲讲话'},
+            {label: '14首小拜赞，由幼儿园小朋友演出，部分歌曲前有简短母亲讲话'},
         ],
         discsTypeAndLug: 'DVD英语',
         highlyRecommended: [
-            {1: '1. 希望了解Borotin幼儿园的日常生活点滴'},
-            {2: '2. 有愿望参与霎哈嘉儿童活动，向儿童讲解霎哈嘉知识'},
-            {3: '3. 想取得儿童活动剧的灵感'},
+            {label: '1. 希望了解Borotin幼儿园的日常生活点滴'},
+            {label: '2. 有愿望参与霎哈嘉儿童活动，向儿童讲解霎哈嘉知识'},
+            {label: '3. 想取得儿童活动剧的灵感'},
         ],
         burntVersionDetail: [
             {

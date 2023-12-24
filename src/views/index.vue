@@ -3,7 +3,7 @@
     <home-header></home-header>
     <div class="index-page-discs-box">
       <div class="discs-box-min-box" v-for="(item, index) in Discs" :key="index">
-        <home-discs :discsData="item"></home-discs>
+        <home-discs :discsData="item" :index="index"></home-discs>
       </div>
     </div>
   </div>
