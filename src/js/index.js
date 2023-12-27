@@ -18,7 +18,7 @@ export const Discs = [
         burntVersionDetail: [
             {
                 'burnInclud': '碟片+歌词本+光盘盒',
-                'burnPic': 'src/assets/img/thousand-petals.jpeg',
+                'burnPic': 'src/assets/img/burnt/kundala1-burnt.png',
             }
         ]
     },
@@ -38,7 +38,7 @@ export const Discs = [
         burntVersionDetail: [
             {
                 'burnInclud': '碟片+歌词本+光盘盒',
-                'burnPic': 'src/assets/img/together-we-are-strong.png',
+                'burnPic': 'src/assets/img/burnt/kundala2-burnt.png',
             }
         ]
     },
@@ -59,7 +59,7 @@ export const Discs = [
         burntVersionDetail: [
             {
                 'burnInclud': '碟片+歌词本+光盘盒',
-                'burnPic': 'src/assets/img/little-ganesha.jpeg',
+                'burnPic': 'src/assets/img/burnt/little-ganesha-burnt.png',
             }
         ]
     },
@@ -81,7 +81,7 @@ export const Discs = [
         burntVersionDetail: [
             {
                 'burnInclud': '碟片+歌词本+光盘盒',
-                'burnPic': 'src/assets/img/a-day-in-borotin.png',
+                'burnPic': 'src/assets/img/burnt/day-in-borotin-burnt.png',
             }
         ]
     },
@@ -107,7 +107,7 @@ export const Discs = [
         burntVersionDetail: [
             {
                 'burnInclud': '碟片+光盘盒',
-                'burnPic': 'src/assets/img/borotin1.jpeg',
+                'burnPic': 'src/assets/img/burnt/borotin1-burnt.png',
             }
         ]
     },
@@ -135,7 +135,7 @@ export const Discs = [
         burntVersionDetail: [
             {
                 'burnInclud': '碟片+光盘盒',
-                'burnPic': 'src/assets/img/borotin2.jpeg',
+                'burnPic': 'src/assets/img/burnt/borotin2-burnt.png',
             }
         ]
     },
@@ -163,7 +163,7 @@ export const Discs = [
         burntVersionDetail: [
             {
                 'burnInclud': '碟片+光盘盒',
-                'burnPic': 'src/assets/img/borotin3.jpeg',
+                'burnPic': 'src/assets/img/burnt/borotin3-burnt.png',
             }
         ]
     },
@@ -184,11 +184,10 @@ export const Discs = [
         burntVersionDetail: [
             {
                 'burnInclud': '碟片+歌词本+光盘盒(7月后可以出来)',
-                'burnPic': 'src/assets/img/borotin-universe.png',
+                'burnPic': '',
             }
         ]
     },
-
     // {
     //     discsName: '碟片名称',
     //     discsChinaName: '碟片中文名称',
@@ -210,5 +209,4 @@ export const Discs = [
     //         }
     //     ]
     // },
-    
 ]

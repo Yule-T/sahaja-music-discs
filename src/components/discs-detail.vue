@@ -42,11 +42,11 @@
               <div class="main-content">
                 <p>刻录版包括：</p>
                 <div v-for="(item ,index) in Discs[route.query.id - 1].burntVersionDetail" :key="index"
-                  style="display: flex; align-items: center;">
-                  <div>
+                  style="align-items: center;">
+                  <div class="discs-content">{{ item.burnInclud }}</div>
+                  <div v-if="item.burnPic">
                     <img style="width: 90px; height: 90px;" :src="item.burnPic" alt="图片加载失败...">
-                  </div>&nbsp;
-                  <span class="discs-content">{{ item.burnInclud }}</span>
+                  </div>
                 </div>
               </div>
             </el-main>
