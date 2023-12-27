@@ -1,6 +1,6 @@
 <template>
   <div class="home-header-page">
-    霎哈嘉瑜伽儿童音乐
+    霎哈嘉瑜伽儿童音乐碟片
   </div>
 </template>
 

@@ -22,7 +22,6 @@ import { Discs } from "../js"
   width: 100vw;
   .discs-box {
     margin: auto;
-    height: 100vh;
     width: 1308px;
   .index-page-discs-box {
     padding: 0 30px;

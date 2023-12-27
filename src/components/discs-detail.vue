@@ -176,8 +176,8 @@ const goBack = () => {
     }
     .detail-main-container-main {
       width: 290px;
+      padding-bottom: 0;
       .main-content {
-        margin-bottom: 25px;
         p {
           font-size: 20px;
           font-weight: 400;
