@@ -14,8 +14,6 @@
   </div>
 </template>
 
-
-
 <script setup>
 import router from "../router/index.js";
 import { reactive, ref, onMounted } from 'vue';
@@ -30,57 +28,64 @@ const { discsData, index } = defineProps({
     type: Number,
   }
 })
-onMounted (() => {
+onMounted(() => {
   console.log(discsData.discsPic);
 })
 
 function imgClick(index) {
-  router.push({ path: '/detail-page',query: {id: index+1} });
+  router.push({ path: '/detail-page', query: { id: index + 1 } });
 }
 </script>
 
-
-
-
-
-
 <style scoped lang='scss'>
 .home-discs-page {
-    .discs-box {
-      margin: 5px 20px;
-      width: 168px;
-      height: 250px;
-      background: white;
-      padding: 0 5px;
-      .discs-pic {
-        width: 100%;
-        height: 168px;
-        overflow: hidden;
-        img {
-          width: 100%;
-          height: 100%;
-          object-fit: contain;
-          transition: all 0.5s;
-        }
-        img:hover {
-          cursor: pointer;
-          transform: scale(1.1);
-        }
+  .discs-box {
+    width: 173px;
+    height: 255px;
+    background: rgb(255, 255, 255);
+
+    .discs-pic {
+      // background: rgb(135, 135, 135);
+      background: url("../assets/img/contain.png") 0 0 no-repeat;
+      background-size: contain;
+      width: 173px;
+      height: 173px;
+      overflow: hidden;
+      border-radius: 12px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 167px;
+        height: 167px;
+        object-fit: contain;
+        transition: all 0.5s;
       }
-      .discs-name {
-        margin-top: 10px;
-        line-height: 22px;
-        font-size: 14px;
-        span:hover {
-          cursor: pointer;
-        }
-      }
-      .discs-author {
-        margin-top: 5px;
-        font-size: 14px;
-        line-height: 22px;
-        color: grey;
+
+      img:hover {
+        cursor: pointer;
+        transform: scale(1.03);
       }
     }
+
+    .discs-name {
+      margin-top: 10px;
+      line-height: 22px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #111418;
+
+      span:hover {
+        cursor: pointer;
+      }
+    }
+
+    .discs-author {
+      font-size: 12px;
+      line-height: 22px;
+      color: #60758a;
+    }
+  }
 }
 </style>

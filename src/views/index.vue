@@ -20,16 +20,16 @@ import { Discs } from "../js"
 <style scoped lang='scss'>
 .index-page {
   width: 100vw;
-  .discs-box {
-    margin: auto;
-    width: 1308px;
-  .index-page-discs-box {
-    padding: 0 30px;
-    display: flex;
-    flex-wrap: wrap;
-    float: left;
-  }
 
+  .discs-box {
+    padding: 10px 80px 0;
+
+    .index-page-discs-box {
+      display: flex;
+      grid-gap: 15px;
+      overflow-x: hidden;
+      flex-wrap: wrap;
+    }
   }
 }
 </style>
