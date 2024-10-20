@@ -74,8 +74,8 @@ onMounted(() => {
 </script>
 
 <style lang="scss">
-/* 当视口宽度小于600px时，适用于手机 */
-@media (max-width: 600px) {
+/* 当视口宽度小于690px时 */
+@media (min-width: 371px) and (max-width: 690px) {
   .discs-detail-page {
     .bottom-detail {
       flex-direction: column;
@@ -88,6 +88,31 @@ onMounted(() => {
           .discs-img-div {
             .data__cover_mask {
               left: 1.25rem !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* 当视口宽度小于370px时 */
+@media (max-width: 370px) {
+  .discs-detail-page {
+    .bottom-detail {
+      flex-direction: column;
+      padding: 0 1.25rem !important;
+
+      .left-box {
+        width: auto !important;
+
+        .item-1 {
+          flex-direction: column;
+          align-items: center;
+          .discs-img-div {
+            overflow: visible !important;
+            margin-bottom: 0.3125rem;
+            .data__cover_mask {
+              left: calc(50% - 2.875rem) !important;
             }
           }
         }
@@ -120,7 +145,6 @@ onMounted(() => {
       height: 100%;
 
       .item-1 {
-        height: 6rem;
         width: 100%;
         display: flex;
 
