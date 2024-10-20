@@ -1,6 +1,6 @@
 <template>
   <div class="discs-detail-page">
-    <home-header></home-header>
+    <home-header path="detail"></home-header>
     <div class="bottom-detail">
       <div class="left-box">
         <div class="item-1">
@@ -55,18 +55,13 @@
           </ul>
         </div>
       </div>
-      <div class="back-home" @click="goBack">
-        <img src="/assets/img/icon/back-left.png" alt="">
-        返回
-      </div>
     </div>
   </div>
 </template>
 
 
 <script setup>
-import { reactive, ref, onMounted } from 'vue';
-import router from "../router";
+import { onMounted } from 'vue';
 import { useRoute } from "vue-router";
 import { Discs } from "../js";
 import HomeHeader from "./home-header.vue";
@@ -76,13 +71,35 @@ const route = useRoute();
 onMounted(() => {
   console.log(route.query.id);
 })
-
-const goBack = () => {
-  router.push({ path: '/' });
-}
 </script>
 
 <style lang="scss">
+/* 当视口宽度小于600px时，适用于手机 */
+@media (max-width: 600px) {
+  .discs-detail-page {
+    .bottom-detail {
+      flex-direction: column;
+      padding: 0 1.25rem !important;
+
+      .left-box {
+        width: auto !important;
+
+        .item-1 {
+          .discs-img-div {
+            .data__cover_mask {
+              left: 1.25rem !important;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
 .discs-detail-page {
   height: 100vh;
   width: 100vw;
@@ -96,6 +113,7 @@ const goBack = () => {
     padding: 0 5rem;
     grid-gap: 0.625rem;
     position: relative;
+    overflow: auto;
 
     .left-box {
       width: 60%;
@@ -228,26 +246,6 @@ const goBack = () => {
             }
           }
         }
-      }
-    }
-
-    .back-home {
-      position: absolute;
-      width: 3rem;
-      height: 1.25rem;
-      top: -0.9375rem;
-      left: 0;
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      font-size: 0.875rem;
-      justify-content: space-between;
-      cursor: pointer;
-
-      img {
-        width: 1rem;
-        height: 1rem;
-        object-fit: contain;
       }
     }
   }
