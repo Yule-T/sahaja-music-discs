@@ -3,7 +3,6 @@ import vue from '@vitejs/plugin-vue'
 import { resolve } from "path";
 const pathResolve = (dir) => resolve(__dirname, dir);
 
-// https://vitejs.dev/config/
 export default defineConfig({
   plugins: [vue()],
   server: {
@@ -14,4 +13,5 @@ export default defineConfig({
       "@": pathResolve("./src"), // 新增
     },
   },
+  base: process.env.NODE_ENV === 'production' ? '/sahaja-music-discs/' : '/', // 动态设置 base
 })
