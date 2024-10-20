@@ -22,11 +22,11 @@ import { Discs } from "../js"
   width: 100vw;
 
   .discs-box {
-    padding: 10px 80px 0;
+    padding: 0.625rem 5rem 0;
 
     .index-page-discs-box {
       display: flex;
-      grid-gap: 15px;
+      grid-gap: 0.9375rem;
       overflow-x: hidden;
       flex-wrap: wrap;
     }

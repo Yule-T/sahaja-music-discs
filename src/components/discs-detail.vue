@@ -93,8 +93,8 @@ const goBack = () => {
   .bottom-detail {
     flex: 1;
     display: flex;
-    padding: 0 80px;
-    grid-gap: 10px;
+    padding: 0 5rem;
+    grid-gap: 0.625rem;
     position: relative;
 
     .left-box {
@@ -102,13 +102,13 @@ const goBack = () => {
       height: 100%;
 
       .item-1 {
-        height: 96px;
+        height: 6rem;
         width: 100%;
         display: flex;
 
         .discs-img-div {
-          width: 92px;
-          height: 92px;
+          width: 5.75rem;
+          height: 5.75rem;
           overflow: hidden;
 
           img {
@@ -119,51 +119,51 @@ const goBack = () => {
 
           .data__cover_mask {
             position: absolute;
-            left: 80px;
-            width: 104px;
-            height: 92px;
+            left: 5rem;
+            width: 6.5rem;
+            height: 5.75rem;
             background: url("/assets/img/album_cover.png") 0 0 no-repeat;
-            background-size: 104px 92px;
+            background-size: 6.5rem 5.75rem;
             pointer-events: none;
           }
         }
 
         .name-author-div {
           flex: 1;
-          margin-left: 10px;
+          margin-left: 0.625rem;
           display: flex;
           flex-direction: column;
           justify-content: space-evenly;
           align-items: center;
 
           .name-item {
-            font-size: 24px;
+            font-size: 1.5rem;
             font-weight: 600;
             text-align: center;
           }
 
           .author-item {
-            font-size: 12px;
+            font-size: 0.75rem;
           }
         }
       }
 
       .item-2 {
         .content {
-          margin-top: 15px;
+          margin-top: 0.9375rem;
 
           p {
-            font-size: 16px;
+            font-size: 1rem;
             font-weight: 600;
-            line-height: 36px;
+            line-height: 2.25rem;
           }
 
           div {
-            font-size: 14px;
+            font-size: 0.875rem;
           }
 
           ul li {
-            font-size: 14px;
+            font-size: 0.875rem;
             list-style-type: disc;
             list-style-position: inside;
           }
@@ -176,55 +176,55 @@ const goBack = () => {
       height: 100%;
 
       .highly-recommended {
-        margin-bottom: 25px;
+        margin-bottom: 1.5625rem;
 
         p {
-          font-size: 16px;
+          font-size: 1rem;
           font-weight: 600;
-          line-height: 36px;
+          line-height: 2.25rem;
         }
 
         ol li {
-          font-size: 14px;
+          font-size: 0.875rem;
           list-style-type: decimal;
           list-style-position: inside;
         }
 
         ul li {
-          font-size: 14px;
+          font-size: 0.875rem;
           list-style-type: disc;
           list-style-position: inside;
         }
       }
 
       .main-content {
-        margin-bottom: 25px;
+        margin-bottom: 1.5625rem;
 
         p {
-          font-size: 16px;
+          font-size: 1rem;
           font-weight: 600;
-          line-height: 36px;
+          line-height: 2.25rem;
         }
 
         .discs-content {
-          line-height: 22px;
-          font-size: 14px;
+          line-height: 1.375rem;
+          font-size: 0.875rem;
         }
 
         .discs-img {
-          margin-top: 10px;
+          margin-top: 0.625rem;
           display: flex;
-          grid-gap: 15px;
+          grid-gap: 0.9375rem;
           overflow-x: hidden;
           flex-wrap: wrap;
 
           div {
-            border-radius: 6px;
+            border-radius: 0.375rem;
             overflow: hidden;
 
             img {
-              width: 130px;
-              height: 130px;
+              width: 8.125rem;
+              height: 8.125rem;
             }
           }
         }
@@ -233,20 +233,20 @@ const goBack = () => {
 
     .back-home {
       position: absolute;
-      width: 48px;
-      height: 20px;
-      top: -15px;
+      width: 3rem;
+      height: 1.25rem;
+      top: -0.9375rem;
       left: 0;
       display: flex;
       flex-direction: row;
       align-items: center;
-      font-size: 14px;
+      font-size: 0.875rem;
       justify-content: space-between;
       cursor: pointer;
 
       img {
-        width: 16px;
-        height: 16px;
+        width: 1rem;
+        height: 1rem;
         object-fit: contain;
       }
     }

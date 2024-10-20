@@ -40,25 +40,25 @@ function imgClick(index) {
 <style scoped lang='scss'>
 .home-discs-page {
   .discs-box {
-    width: 173px;
-    height: 255px;
+    width: 10.8125rem;
+    height: 15.9375rem;
     background: rgb(255, 255, 255);
 
     .discs-pic {
       // background: rgb(135, 135, 135);
       background: url("/assets/img/contain.png") 0 0 no-repeat;
       background-size: contain;
-      width: 173px;
-      height: 173px;
+      width: 10.8125rem;
+      height: 10.8125rem;
       overflow: hidden;
-      border-radius: 12px;
+      border-radius: 0.75rem;
       display: flex;
       justify-content: center;
       align-items: center;
 
       img {
-        width: 167px;
-        height: 167px;
+        width: 10.4375rem;
+        height: 10.4375rem;
         object-fit: contain;
         transition: all 0.5s;
       }
@@ -70,9 +70,9 @@ function imgClick(index) {
     }
 
     .discs-name {
-      margin-top: 10px;
-      line-height: 22px;
-      font-size: 14px;
+      margin-top: 0.625rem;
+      line-height: 1.375rem;
+      font-size: 0.875rem;
       font-weight: 600;
       color: #111418;
 
@@ -82,8 +82,8 @@ function imgClick(index) {
     }
 
     .discs-author {
-      font-size: 12px;
-      line-height: 22px;
+      font-size: 0.75rem;
+      line-height: 1.375rem;
       color: #60758a;
     }
   }

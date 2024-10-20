@@ -10,24 +10,24 @@
 
 <style scoped lang='scss'>
 .home-header-page {
-  height: 48px;
+  height: 3rem;
   width: 100%;
-  padding: 0 20px;
-  margin-bottom: 20px;
+  padding: 0 1.25rem;
+  margin-bottom: 1.25rem;
   background: white;
   position: sticky;
   top: 0;
-  line-height: 48px;
+  line-height: 3rem;
   border-bottom: 1px solid #f0f2f5;
   box-sizing: border-box;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 1rem;
   color: #111418;
   display: flex;
   justify-content: space-between;
   >div:nth-child(2) {
     color: #111418;
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 </style>
