@@ -46,7 +46,7 @@ function imgClick(index) {
 
     .discs-pic {
       // background: rgb(135, 135, 135);
-      background: url("../assets/img/contain.png") 0 0 no-repeat;
+      background: url("/assets/img/contain.png") 0 0 no-repeat;
       background-size: contain;
       width: 173px;
       height: 173px;

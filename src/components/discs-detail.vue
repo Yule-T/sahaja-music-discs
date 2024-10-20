@@ -56,7 +56,7 @@
         </div>
       </div>
       <div class="back-home" @click="goBack">
-        <img src="../assets/img/icon/back-left.png" alt="">
+        <img src="/assets/img/icon/back-left.png" alt="">
         返回
       </div>
     </div>
@@ -122,7 +122,7 @@ const goBack = () => {
             left: 80px;
             width: 104px;
             height: 92px;
-            background: url("../assets/img/album_cover.png") 0 0 no-repeat;
+            background: url("/assets/img/album_cover.png") 0 0 no-repeat;
             background-size: 104px 92px;
             pointer-events: none;
           }
