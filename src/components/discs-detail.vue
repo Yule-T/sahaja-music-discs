@@ -280,7 +280,6 @@ onMounted(() => {
             overflow: hidden;
 
             img {
-              width: 8.125rem;
               height: 8.125rem;
             }
           }
