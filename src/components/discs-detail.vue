@@ -56,6 +56,13 @@
         </div>
       </div>
     </div>
+    <div class="write" @click="write">
+      <div class="icon">
+        <img src="/assets/img/icon/intention.png" alt="">
+      </div>
+      <div class="text">
+        碟片<br />意向</div>
+    </div>
   </div>
 </template>
 
@@ -67,6 +74,10 @@ import { Discs } from "../js";
 import HomeHeader from "./home-header.vue";
 
 const route = useRoute();
+
+const write = () => {
+  window.open("https://l9pcwe0zos.feishu.cn/share/base/form/shrcnDfbSNB3lVLjYpoei3QrTph", "_blank")
+};
 
 onMounted(() => {
   console.log(route.query.id);
@@ -95,6 +106,7 @@ onMounted(() => {
     }
   }
 }
+
 /* 当视口宽度小于370px时 */
 @media (max-width: 370px) {
   .discs-detail-page {
@@ -108,9 +120,11 @@ onMounted(() => {
         .item-1 {
           flex-direction: column;
           align-items: center;
+
           .discs-img-div {
             overflow: visible !important;
             margin-bottom: 0.3125rem;
+
             .data__cover_mask {
               left: calc(50% - 2.875rem) !important;
             }
@@ -131,6 +145,7 @@ onMounted(() => {
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  position: relative;
 
   .bottom-detail {
     flex: 1;
@@ -271,6 +286,35 @@ onMounted(() => {
           }
         }
       }
+    }
+  }
+
+  .write {
+    position: absolute;
+    background: #ffc0b7b8;
+    right: 0;
+    bottom: 20%;
+    border-radius: 0.5rem 0 0 0.5rem;
+    cursor: pointer;
+
+    .icon {
+      height: 2rem;
+      width: 2rem;
+      overflow: hidden;
+
+      img {
+        height: 2.25rem;
+        width: 2.25rem;
+        position: absolute;
+        right: -0.1875rem;
+      }
+    }
+
+    .text {
+      font-size: 0.75rem;
+      margin: 0.125rem 0 0.3125rem;
+      display: flex;
+      justify-content: center;
     }
   }
 }

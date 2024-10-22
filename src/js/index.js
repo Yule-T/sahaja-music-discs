@@ -3,7 +3,8 @@ export const Discs = [
     {
         discsName: 'Kundala:Thousand Petals',
         discsChinaName: '中文简称 Kundala 1 或者 Kundala:千瓣莲花',
-        discsPic: dir + 'assets/img/thousand-petals.png',
+        // discsPic: dir + 'assets/img/thousand-petals.png',
+        discsPic: "https://foruda.gitee.com/images/1729603519056357078/5193bb48_13838675.png",
         discsAuthor: '德国Kundala',
         discsContent: [
             { label: '24首歌曲；' },
@@ -25,7 +26,8 @@ export const Discs = [
     {
         discsName: 'Kundala:Together We are Strong',
         discsChinaName: '中文简称 Kundala 2',
-        discsPic: dir + 'assets/img/together-we-are-strong.png',
+        // discsPic: dir + 'assets/img/together-we-are-strong.png',
+        discsPic: "https://foruda.gitee.com/images/1729603567426153924/ca2f9a00_13838675.png",
         discsAuthor: '德国Kundala',
         discsContent: [
             { label: '16首歌曲 + 16首都应歌曲的纯音乐；' },
@@ -44,7 +46,8 @@ export const Discs = [
     {
         discsName: 'Little Ganesha',
         discsChinaName: '',
-        discsPic: dir + 'assets/img/little-ganesha.png',
+        // discsPic: dir + 'assets/img/little-ganesha.png',
+        discsPic: "https://foruda.gitee.com/images/1729603470062477645/8de01305_13838675.png",
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
             { label: '32首儿童拜赞；' },
@@ -64,7 +67,8 @@ export const Discs = [
     {
         discsName: 'A Day in Borotin',
         discsChinaName: '中文：Borotin 幼儿园的一天',
-        discsPic: dir + 'assets/img/a-day-in-borotin.png',
+        // discsPic: dir + 'assets/img/a-day-in-borotin.png',
+        discsPic: "https://foruda.gitee.com/images/1729603131966016496/c0774dcc_13838675.png",
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
             { label: '14首歌曲 + 7首霎哈嘉知识引导音频 + 3个儿童剧视频；' },
@@ -85,7 +89,8 @@ export const Discs = [
     {
         discsName: 'Borotin 幼儿园儿童冥想系列 1',
         discsChinaName: '',
-        discsPic: dir + 'assets/img/borotin1.png',
+        // discsPic: dir + 'assets/img/borotin1.png',
+        discsPic: "https://foruda.gitee.com/images/1729603247246342974/64a5f4cd_13838675.png",
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
             { label: 'Introduction to Meditation and Sahaj Techniques 冥想与Sahaj 技巧' },
@@ -110,7 +115,8 @@ export const Discs = [
     {
         discsName: 'Borotin 幼儿园儿童冥想系列 2',
         discsChinaName: '',
-        discsPic: dir + 'assets/img/borotin2.png',
+        // discsPic: dir + 'assets/img/borotin2.png',
+        discsPic: "https://foruda.gitee.com/images/1729603324384705430/2d7be9ea_13838675.png",
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
             { label: 'Mooladhara Chakra：the child within 根轮:儿童的内在' },
@@ -137,7 +143,8 @@ export const Discs = [
     {
         discsName: 'Borotin 幼儿园儿童冥想系列 3',
         discsChinaName: '',
-        discsPic: dir + 'assets/img/borotin3.png',
+        // discsPic: dir + 'assets/img/borotin3.png',
+        discsPic: "https://foruda.gitee.com/images/1729603369640850808/221bda21_13838675.png",
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
             { label: 'Swadisthana chakra: The source of Creativity 腹轮：创造力的来源' },
@@ -164,7 +171,8 @@ export const Discs = [
     {
         discsName: 'Borotin Universe',
         discsChinaName: '',
-        discsPic: dir + 'assets/img/borotin-universe.png',
+        // discsPic: dir + 'assets/img/borotin-universe.png',
+        discsPic: "https://foruda.gitee.com/images/1729603415412656982/f2755aa4_13838675.png",
         discsAuthor: '捷克Borotin幼儿园',
         discsContent: [
             { label: '14首小拜赞，由幼儿园小朋友演出，部分歌曲前有简短母亲讲话；' },

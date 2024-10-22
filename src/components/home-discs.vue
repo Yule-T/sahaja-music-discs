@@ -46,7 +46,7 @@ function imgClick(index) {
 
     .discs-pic {
       // background: rgb(135, 135, 135);
-      background: url("/assets/img/contain.png") 0 0 no-repeat;
+      background: url("https://foruda.gitee.com/images/1729603613155166711/0f8f02f3_13838675.png") 0 0 no-repeat;
       background-size: contain;
       width: 10.8125rem;
       height: 10.8125rem;
